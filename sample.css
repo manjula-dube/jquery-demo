@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+body {
+	background-color: #D1A163;
+	background-image: url("http://www.transparenttextures.com/patterns/wood-pattern.png");
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	width: 100%;
+}
+
+ol, ul {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+a, a:active {
+	color: #AFAFAF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #565656 !important;
+	text-decoration: none;
+}
+
+.content-panel {
+	background-color: #FFFFFF;
+	background-image: url("http://www.transparenttextures.com/patterns/paper.png");
+	height: 200px;
+	width: 400px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 0 auto;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	border-radius: 1px;
+}
+
+.index {
+	height: 100%;
+	max-height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin-top: 60px;
+}
+
+.header {
+	margin-top: 10px;
+	margin-left: 0%;
+	margin-bottom: 0px;
+	font-size: 32px;
+	width: 100%;
+}
+
+.resume-heading {
+	text-decoration: underline;
+	color: #AFAFAF;
+}
+
+.author-header {
+	color: #AFAFAF;
+	margin-top: 0px;
+	padding-top: 10px;
+	font-size: 50px;
+	text-align: center;
+	mix-blend-mode: multiply;
+}
+
+.main-text {
+	text-align: center;
+	margin-top: 15px;
+	mix-blend-mode: multiply;
+}
+
+a, a:active {
+	color: #AFAFAF;
+}
+
+a:hover {
+	color: #AFAFAF;
+	text-decoration: none;
+}
+
+.menu-items {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+i {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: .7em;
+}
+
+.fa {
+	color: #AFAFAF;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	transition: 0.3s;
+	mix-blend-mode: multiply;
+}
+
+.fa-envelope:hover {
+	color: #565656;
+}
+
+.fa-facebook:hover {
+	color: #43609c;
+}
+
+.fa-twitter:hover {
+	color: #6dabda;
+}
+
+.fa-linkedin:hover {
+	color: #2b77b1;
+}
+
+.fa-google-plus:hover {
+	color: #c95644;
+}
+
+.fa-github-alt:hover {
+	color: #4078c0;
+}
+
+.fa-codepen:hover {
+	color: #FFFFFF;
+}
+
+.fa-stack-overflow:hover {
+	color: #c98b3b;
+}
+
+.flip-link {
+	text-align: center;
+	text-decoration: none;
+}
